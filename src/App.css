@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Apply background image to the entire body */
+body {
+  background-image: url('C:\Users\kovid\OneDrive\Pictures\bria.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: cursive;
+  margin: 10px;
+  padding: 10px;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-application-form {
+  max-width: 5000px;
+  padding: 50px;
+  background-color: rgba(248, 216, 243, 0.9); /* Slightly transparent background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-application-form h2 {
+  margin-bottom: 60px;
+  font-size: 50px;
+  text-align: center;
+  color: #3d032f;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 19px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+select,
+textarea,
+input[type='number'],
+input[type='url'],
+input[type='datetime-local'] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 3px solid #7f1e6f;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-group label {
+  margin-right: 15px;
+}
+
+.summary {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #e1ccde;
+  border-radius: 8px;
+  background-color: rgba(249, 217, 244, 0.9); /* Slightly transparent background */
+}
+
+.summary h2 {
+  margin-bottom: 10px;
+  color: #421032;
+}
+
+.submit-btn,
+.submit-another-btn {
+  background-color: #5c2956;
+  color: #f9f8f8;
+  padding: 10px 20px;
+  font-family: cursive;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-another-btn {
+  background-color: #28a745;
+}
+
+.submit-btn:hover,
+.submit-another-btn:hover {
+  opacity: 0.8;
+}
